@@ -1,4 +1,4 @@
-set JAVA_HOME=%PROGRAMFILES%\Java\jdk-21.0.1
+set JAVA_HOME=%PROGRAMFILES%\Java\jdk-25
 
 
 @REM ----------------------------------------------------------------------------
