@@ -1,0 +1,8 @@
+---
+runtime: java25
+instance_class: F1
+env: standard
+
+automatic_scaling:
+  min_instances: 0  # Schaal naar 0 bij geen traffic
+  max_instances: 1
