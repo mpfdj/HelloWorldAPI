@@ -36,29 +36,29 @@ https://stackoverflow.com/questions/56139706/speeding-up-apt-get-update-to-speed
 
 
 # Host API at Google Cloud (Google App Engine)
-https://console.cloud.google.com/
+https://console.cloud.google.com/  
 https://c.gle/APy2Ad0qrW21ggiamyXnj7x1Ftxd4fP4QsnEsDL1PjeU5KrTaVlTIbSX1bjE648aovyE5fZMfTtWtInMERKXWkIrBTt4X7EeNH1Uj0DMaE9iVFbzfRhjM2a-nQMe_8kYHwz_K3m_wZDUPJ_cb_MGkOJTBRZPBF8GZnDakvju2tb_Hl1Tf9XgntkfVABzqYPE9Nr0JMgEI7v95A_9_fSxfw9aX0Vo4JLKxNSmbI5VVCL7eZS7KXirGGwDoL1YHmhmj826XbHrip2CA9vgV2vOX5H7g3KWbl6Om3yTrR9rNCZfnFVFQ9qw
 
 # Cloud Build / History
-https://console.cloud.google.com/cloud-build/builds?referrer=search&project=cosmic-ascent-480221-u3
+https://console.cloud.google.com/cloud-build/builds?referrer=search&project=cosmic-ascent-480221-u3  
 
-https://docs.cloud.google.com/sdk/docs/install-sdk
-https://cloud.google.com/sdk/docs/quickstarts
-https://docs.cloud.google.com/build/docs/deploying-builds/deploy-appengine
+https://docs.cloud.google.com/sdk/docs/install-sdk  
+https://cloud.google.com/sdk/docs/quickstarts  
+https://docs.cloud.google.com/build/docs/deploying-builds/deploy-appengine  
 
-gcloud init
-gcloud auth list
-gcloud config list
-gcloud help
-gcloud help compute instances create
+gcloud init  
+gcloud auth list  
+gcloud config list  
+gcloud help  
+gcloud help compute instances create  
 
 
 # Deploy using gcloud command
-.\mvnw.cmd clean package
-gcloud auth login
-gcloud config set project cosmic-ascent-480221-u3
-gcloud app deploy app.yaml --project=cosmic-ascent-480221-u3
+.\mvnw.cmd clean package  
+gcloud auth login  
+gcloud config set project cosmic-ascent-480221-u3  
+gcloud app deploy app.yaml --project=cosmic-ascent-480221-u3  
 
 # Verify deployment
-gcloud app logs tail -s default
-gcloud app browse
+gcloud app logs tail -s default  
+gcloud app browse  
