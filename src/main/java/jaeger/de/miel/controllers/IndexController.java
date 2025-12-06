@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class IndexController {
 
-    @RequestMapping(value = "/helloworld-api/hello",
+    @RequestMapping(value = "/hello",
             method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public @ResponseBody Hello hello(@RequestParam(name = "name", defaultValue = "world") String name) {
@@ -20,14 +20,14 @@ public class IndexController {
         return h;
     }
 
-    @RequestMapping(value = "/helloworld-api/ping",
+    @RequestMapping(value = "/ping",
             method = RequestMethod.GET,
             produces = MediaType.TEXT_PLAIN_VALUE)
     public @ResponseBody String ping() {
         return "pong";
     }
 
-    @RequestMapping(value = "/helloworld-api",
+    @RequestMapping(value = "/",
             method = RequestMethod.GET,
             produces = MediaType.TEXT_HTML_VALUE)
     public String index(Model model) {

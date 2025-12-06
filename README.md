@@ -56,8 +56,8 @@ gcloud help compute instances create
 # Deploy using gcloud command
 .\mvnw.cmd clean package  
 gcloud auth login  
-gcloud config set project cosmic-ascent-480221-u3  
-gcloud app deploy app.yaml --project=cosmic-ascent-480221-u3  
+gcloud config set project helloworldapiproject  
+gcloud app deploy app.yaml --project=helloworldapiproject  
 
 # Verify deployment
 gcloud app logs tail -s default  

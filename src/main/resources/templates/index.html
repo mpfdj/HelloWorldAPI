@@ -6,18 +6,18 @@
 
     <script th:inline="javascript">
         function callEndpoint(endpoint) {
-            if (endpoint === 'ping') window.location.href = '/helloworld-api/ping';
-            if (endpoint === 'hello') window.location.href = '/helloworld-api/hello';
-            if (endpoint === 'helloMiel') window.location.href = '/helloworld-api/hello?name=Miel';
+            if (endpoint === 'ping') window.location.href = '/ping';
+            if (endpoint === 'hello') window.location.href = '/hello';
+            if (endpoint === 'helloMiel') window.location.href = '/hello?name=Miel';
         }
 
     </script>
 </head>
 <body>
 <ul>
-    <li><a href="#" th:onclick="callEndpoint('ping')">[/helloworld-api/ping]</a></li>
-    <li><a href="#" th:onclick="callEndpoint('hello')">[/helloworld-api/hello]</a></li>
-    <li><a href="#" th:onclick="callEndpoint('helloMiel')">[/helloworld-api/hello?name=Miel]</a></li>
+    <li><a href="#" th:onclick="callEndpoint('ping')">[/ping]</a></li>
+    <li><a href="#" th:onclick="callEndpoint('hello')">[/hello]</a></li>
+    <li><a href="#" th:onclick="callEndpoint('helloMiel')">[/hello?name=Miel]</a></li>
 </ul>
 </body>
 </html>
