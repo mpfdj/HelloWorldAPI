@@ -56,9 +56,12 @@ gcloud help compute instances create
 # Deploy using gcloud command
 .\mvnw.cmd clean package  
 gcloud auth login  
-gcloud config set project helloworldapiproject  
-gcloud app deploy app.yaml --project=helloworldapiproject  
+gcloud config set project mdj-helloworld-api  
+gcloud app deploy app.yaml --project=mdj-helloworld-api  
 
 # Verify deployment
 gcloud app logs tail -s default  
 gcloud app browse  
+
+# URL
+https://mdj-helloworld-api.ew.r.appspot.com  
